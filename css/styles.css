@@ -1,0 +1,55 @@
+body {
+    background-color: var(--light-gray);
+    width: 100vw;
+    font-size: var(--Font-size);
+    font-family: var(--Font-family)
+}
+
+.container {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.card{
+    width: 20em;
+    padding: 1em;
+    background-color: var(--white);
+    border-radius: 1em;
+}
+
+.card__image {
+    border-radius: .75em;
+}
+
+.card__title {
+    margin: 1em;
+    text-align: center;
+    font-size: 1.25em;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.card__description {
+    margin: 0 1em 1em 0;
+    text-align: center;
+    color: var(--grayish-blue);
+}
+
+.attribution {
+    color: var(--dark-blue);
+    text-align: center;
+    font-size: .85em;
+    padding: 1.5em;
+}
+
+.attribution__link {
+    text-decoration: underline;
+}
+
+.attribution__link:hover {
+    color: var(--dark-blue);
+} 
+
